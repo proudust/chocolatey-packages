@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>setup-pleiades</id>
+    <version>2019.08.31</version>
+    <title>Setup Pleiades</title>
+
+    <authors>cypher256</authors>
+    <projectUrl>http://mergedoc.osdn.jp</projectUrl>
+    <licenseUrl>http://mergedoc.osdn.jp</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://pleiades.io/pages/pleiades_jetbrains_manual.html</docsUrl>
+    <bugTrackerUrl>https://github.com/cypher256/pleiades.io/issues</bugTrackerUrl>
+    <copyright>Copyright © 2003-2019 Shinji Kashihara (cypher256). All Rights Reserved.</copyright>
+
+    <summary>
+Japanese localization tool for Java Application(Eclipse, Android Studio, etc...).
+Eclipse や Android Studio のような Java アプリケーションを日本語化するツールです。
+    </summary>
+    <description>
+Japanese localization tool for Java Application(Eclipse, Android Studio, etc...).
+Eclipse や Android Studio のような Java アプリケーションを日本語化するツールです。
+    </description>
+    <owners>Proudust</owners>
+    <packageSourceUrl>https://github.com/proudust/chocolatey-packages/tree/master/setup-pleiades</packageSourceUrl>
+    <tags>japanese</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

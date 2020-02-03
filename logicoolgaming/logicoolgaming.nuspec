@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>logicoolgaming</id>
+    <version>9.02.65</version>
+    <title>Logicool Gaming Software</title>
+    <authors>https://gaming.logicool.co.jp</authors>
+    <owners>Proudust</owners>
+    <licenseUrl>https://www.logicool.co.jp/ja-jp/footer/terms-of-use</licenseUrl>
+    <projectUrl>https://support.logi.com/hc/ja/articles/360025298053</projectUrl>
+    <iconUrl>https://secure.logicool.com/assets/64245/gaming-icon.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Logicool Gaming Software lets you customize Logicool G gaming mice, keyboards, headsets and select wheels.
+
+Logicool Gaming Software includes third-party software components, libraries, and frameworks, including, but not limited to, the third-party software listed below:
+
+Digia QT - Application and User Interface Framework
+Microsoft Runtime Libraries - Application and Hardware Support
+These included third party software components provide key functionality to Logicool Gaming Software and are included in the software installation package.</description>
+    <summary>Lets you customize functions on Logicool gaming mice, keyboards, headsets, and select wheels.</summary>
+    <releaseNotes>https://support.logi.com/hc/ja/articles/360025298053</releaseNotes>
+    <copyright />
+    <tags>logicool gaming software mouse keyboard headset driver drivers japanese</tags>
+  </metadata>
+  <files>
+    <file
+        src="tools\**"
+        target="tools" />
+  </files>
+</package>
